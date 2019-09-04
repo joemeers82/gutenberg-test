@@ -6,3 +6,30 @@
   margin: 0;
   padding: 0; }
 
+.wp-block-udemy-night-mode .night {
+  background-color: #333;
+  color: #ddd; }
+
+
+.wp-block-udemy-media-upload .image-ctr {
+  position: relative; }
+
+.wp-block-udemy-media-upload .btn-remove {
+  background-color: #FF564D;
+  padding: 5px 5px 0;
+  position: absolute;
+  top: 0;
+  left: 0; }
+  .wp-block-udemy-media-upload .btn-remove svg {
+    background: red;
+    fill: white; }
+
+.card-block {
+  border: solid thin red !important;
+  display: flex;
+  flex-direction: column;
+  text-align: center; }
+  .card-block img {
+    max-width: 150px;
+    margin: 0 auto; }
+

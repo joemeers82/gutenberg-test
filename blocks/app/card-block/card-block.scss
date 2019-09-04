@@ -1,0 +1,11 @@
+.card-block {
+	border:solid thin red!important;
+	display:flex;
+	flex-direction:column;
+	text-align: center;
+
+	img {
+		max-width:150px;
+		margin:0 auto;
+	}
+}

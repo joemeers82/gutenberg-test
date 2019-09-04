@@ -11,12 +11,17 @@ function gt_enqueue_block_editor_assets(){
 	wp_enqueue_script( 'gt_blocks_bundle' );
 }
 
-function gt_enqueue_block_assets() {	wp_register_style(
+function gt_enqueue_block_assets() {	
+	wp_register_style(
 		'gt_blocks',
 		plugins_url( '/blocks/dist/blocks-main.css', GUTENBERG_TEST_PLUGIN_URL)
 	);
-
+	
 	wp_enqueue_style('gt_blocks');
+	
+	wp_register_style('bootstrap','https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css');
+	wp_enqueue_style('bootstrap');
+	
 
 
 }
